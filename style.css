@@ -120,3 +120,11 @@ ul {
   font-size: 0.8rem;
   opacity: 0.8;
 }
+
+/* added the web-responsive design here we have desktop-first desgin */
+@media (max-width: 650px) {
+  #top-section, #bottom-left-section, #bottom-right-section, #card {
+    width: 100%;
+    height: auto;
+  }
+}
